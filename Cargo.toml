@@ -1,0 +1,20 @@
+[package]
+name = "suez"
+version = "0.1.0"
+authors = ["Andreas Brekken <andreas@brekken.co>"]
+
+[dependencies]
+rand = "0.3.12"
+lazy_static = "0.1.*"
+bincode = "*"
+rustc-serialize = "*"
+serde = "*"
+serde_json = "*"
+serde_macros = "*"
+time = "0.1"
+
+[dependencies.websocket]
+git = "https://github.com/cyderize/rust-websocket.git"
+
+[dependencies.zmq]
+git = "https://github.com/erickt/rust-zmq.git"
